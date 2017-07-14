@@ -19,24 +19,27 @@ html {
   background-size: cover;
 }
 
-.logomenubox {
+nav {
   background-color: cadetblue;
   height: 3rem;
   width: 100%;
   position: relative;
   top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
 }
 
-.logo {
-  display: inline-flex;
+nav div {
+  display: flex;
   align-items: center;
 }
 
-.logo img {
-  height: 1.5rem;
+span {
+  padding: 0 2rem 0 2rem;
 }
 
-.logotitle {
-  font-size: 1rem;
+span.logotitle {
   padding-left: 1rem;
 }
