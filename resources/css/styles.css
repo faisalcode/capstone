@@ -4,6 +4,12 @@ html {
   color: white;
 }
 
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 #covertop {
   height: 30rem;
   width: 100%;
@@ -11,4 +17,26 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.logomenubox {
+  background-color: cadetblue;
+  height: 3rem;
+  width: 100%;
+  position: relative;
+  top: 1rem;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+}
+
+.logotitle {
+  font-size: 1rem;
+  padding-left: 1rem;
 }
