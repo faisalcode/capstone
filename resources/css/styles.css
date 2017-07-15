@@ -2,6 +2,7 @@ html {
   font-size: 18px;
   font-family: helvetica;
   color: white;
+  line-height: 8rem;
 }
 
 
@@ -9,6 +10,8 @@ html {
   max-width: 960px;
   margin: 0 auto;
 }
+
+
 
 header {
   height: 30rem;
@@ -36,8 +39,24 @@ nav div {
   align-items: center;
 }
 
-img {
+nav img {
   height: 1.5rem;
+}
+
+footer img {
+  height: 1.5rem;
+}
+
+#content1 img {
+  width: 3.5rem;
+}
+
+#content2 img {
+  width: 5rem;
+}
+
+#content3 img {
+  width: 3.5rem;
 }
 
 nav span {
@@ -60,6 +79,50 @@ span.logotitle {
     left: 37rem;
 }
 
+.container-content {
+  width: 25%;
+  margin: 0 auto;
+}
+
+#contenthead {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 3rem 0;
+}
+
+#content1 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 8rem;
+  width: 5rem;
+}
+
+
+#content2 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 8rem;
+  width: 5rem;
+}
+
+
+#content3 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 8rem;
+  width: 5rem;
+}
+
 footer {
   background-color: azure;
   color: black;
@@ -69,4 +132,37 @@ footer {
 footer div {
   display: flex;
   align-items: center;
+}
+
+
+#list {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+#list {
+    display: flex;
+
+}
+
+.box {
+  width: 35%;
+  padding-right: 5%;
+}
+
+p, .contitle {
+  color: black;
+}
+
+p {
+  padding-top: 1rem;
+}
+
+.contitle {
+  background-color: cadetblue;
+  width: 10rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.25rem 1.25rem;
 }
