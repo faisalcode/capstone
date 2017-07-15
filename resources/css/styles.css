@@ -10,7 +10,7 @@ html {
   margin: 0 auto;
 }
 
-#covertop {
+header {
   height: 30rem;
   width: 100%;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
@@ -36,10 +36,26 @@ nav div {
   align-items: center;
 }
 
-span {
+nav img {
+  height: 1.5rem;
+}
+
+nav span {
   padding: 0 2rem 0 2rem;
 }
 
 span.logotitle {
   padding-left: 1rem;
+}
+
+.mottotitle {
+    color: black;
+    background-color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.5rem 5rem;
+    max-width: 30%;
+    position: relative;
+    top: 10rem;
+    left: 37rem;
 }
