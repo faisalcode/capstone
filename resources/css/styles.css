@@ -36,7 +36,7 @@ nav div {
   align-items: center;
 }
 
-nav img {
+img {
   height: 1.5rem;
 }
 
@@ -58,4 +58,15 @@ span.logotitle {
     position: relative;
     top: 10rem;
     left: 37rem;
+}
+
+footer {
+  background-color: azure;
+  color: black;
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
 }
